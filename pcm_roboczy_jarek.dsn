@@ -1,0 +1,10 @@
+[ODBC]
+DRIVER=SQL Server Native Client 10.0
+UID=sa
+PWD=Pcm_2013
+LANGUAGE=polski
+DATABASE=dp_targ
+WSID=USER2
+APP=System operacyjny Microsoft® Windows®
+SERVER=192.168.0.36,52008
+Description=Baza PCMarket

@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Component>
+    <component name="Form1" class="TForm1">
+      <properties>
+        <integer name="Left" value="405"/>
+        <integer name="Height" value="570"/>
+        <integer name="Top" value="104"/>
+        <integer name="Width" value="889"/>
+        <string name="Caption" value="Poprawiaczka nazw"/>
+        <integer name="ClientHeight" value="570"/>
+        <integer name="ClientWidth" value="889"/>
+        <ident name="Position" value="poDesktopCenter"/>
+        <string name="LCLVersion" value="1.4.4.0"/>
+      </properties>
+      <children>
+        <component name="Panel1" class="TPanel">
+          <properties>
+            <integer name="Left" value="0"/>
+            <integer name="Height" value="41"/>
+            <integer name="Top" value="529"/>
+            <integer name="Width" value="889"/>
+            <ident name="Align" value="alBottom"/>
+            <ident name="BevelOuter" value="bvNone"/>
+            <integer name="ClientHeight" value="41"/>
+            <integer name="ClientWidth" value="889"/>
+            <integer name="TabOrder" value="0"/>
+          </properties>
+          <children>
+            <component name="Panel2" class="TPanel">
+              <properties>
+                <integer name="Left" value="719"/>
+                <integer name="Height" value="41"/>
+                <integer name="Top" value="0"/>
+                <integer name="Width" value="170"/>
+                <ident name="Align" value="alRight"/>
+                <ident name="BevelOuter" value="bvNone"/>
+                <integer name="ClientHeight" value="41"/>
+                <integer name="ClientWidth" value="170"/>
+                <integer name="TabOrder" value="0"/>
+              </properties>
+              <children>
+                <component name="Button8" class="TButton">
+                  <properties>
+                    <integer name="Left" value="40"/>
+                    <integer name="Height" value="25"/>
+                    <integer name="Top" value="8"/>
+                    <integer name="Width" value="123"/>
+                    <string name="Caption" value="Zamknij"/>
+                    <integer name="TabOrder" value="0"/>
+                  </properties>
+                </component>
+              </children>
+            </component>
+            <component name="Button1" class="TButton">
+              <properties>
+                <integer name="Left" value="4"/>
+                <integer name="Height" value="25"/>
+                <integer name="Top" value="8"/>
+                <integer name="Width" value="115"/>
+                <string name="Caption" value="Podlacz baze"/>
+                <integer name="TabOrder" value="1"/>
+              </properties>
+            </component>
+          </children>
+        </component>
+        <component name="PageControl1" class="TPageControl">
+          <properties>
+            <integer name="Left" value="0"/>
+            <integer name="Height" value="529"/>
+            <integer name="Top" value="0"/>
+            <integer name="Width" value="889"/>
+            <ident name="ActivePage" value="TabSheet2"/>
+            <ident name="Align" value="alClient"/>
+            <integer name="TabIndex" value="1"/>
+            <integer name="TabOrder" value="1"/>
+          </properties>
+          <children>
+            <component name="TabSheet1" class="TTabSheet">
+              <properties>
+                <string name="Caption" value="Nazwy asortymentu"/>
+                <integer name="ClientHeight" value="425"/>
+                <integer name="ClientWidth" value="881"/>
+              </properties>
+              <children>
+                <component name="Panel3" class="TPanel">
+                  <properties>
+                    <integer name="Left" value="0"/>
+                    <integer name="Height" value="148"/>
+                    <integer name="Top" value="277"/>
+                    <integer name="Width" value="881"/>
+                    <ident name="Align" value="alBottom"/>
+                    <integer name="ClientHeight" value="148"/>
+                    <integer name="ClientWidth" value="881"/>
+                    <integer name="TabOrder" value="0"/>
+                  </properties>
+                  <children>
+                    <component name="Button9" class="TButton">
+                      <properties>
+                        <integer name="Left" value="280"/>
+                        <integer name="Height" value="89"/>
+                        <integer name="Top" value="8"/>
+                        <integer name="Width" value="128"/>
+                        <string name="Caption" value="ZmieÅ„ nazwy !"/>
+                        <ident name="Font.CharSet" value="EASTEUROPE_CHARSET"/>
+                        <integer name="Font.Height" value="-12"/>
+                        <string name="Font.Name" value="Arial"/>
+                        <ident name="Font.Pitch" value="fpVariable"/>
+                        <ident name="Font.Quality" value="fqDraft"/>
+                        <boolean name="ParentFont" value="false"/>
+                        <integer name="TabOrder" value="0"/>
+                      </properties>
+                    </component>
+                    <component name="Button2" class="TButton">
+                      <properties>
+                        <integer name="Left" value="8"/>
+                        <integer name="Height" value="25"/>
+                        <integer name="Top" value="72"/>
+                        <integer name="Width" value="128"/>
+                        <string name="Caption" value="Zaznacz wszytskie"/>
+                        <integer name="TabOrder" value="1"/>
+                      </properties>
+                    </component>
+                    <component name="Button3" class="TButton">
+                      <properties>
+                        <integer name="Left" value="8"/>
+                        <integer name="Height" value="25"/>
+                        <integer name="Top" value="40"/>
+                        <integer name="Width" value="128"/>
+                        <string name="Caption" value="Odwroc zaznaczenie"/>
+                        <integer name="TabOrder" value="2"/>
+                      </properties>
+                    </component>
+                    <component name="Button4" class="TButton">
+                      <properties>
+                        <integer name="Left" value="8"/>
+                        <integer name="Height" value="25"/>
+                        <integer name="Top" value="8"/>
+                        <integer name="Width" value="128"/>
+                        <string name="Caption" value="Odznacz wszystkie"/>
+                        <integer name="TabOrder" value="3"/>
+                      </properties>
+                    </component>
+                    <component name="Button5" class="TButton">
+                      <properties>
+                        <integer name="Left" value="144"/>
+                        <integer name="Height" value="25"/>
+                        <integer name="Top" value="8"/>
+                        <integer name="Width" value="128"/>
+                        <string name="Caption" value="Zamien na male"/>
+                        <integer name="TabOrder" value="4"/>
+                      </properties>
+                    </component>
+                    <component name="Button6" class="TButton">
+                      <properties>
+                        <integer name="Left" value="144"/>
+                        <integer name="Height" value="25"/>
+                        <integer name="Top" value="40"/>
+                        <integer name="Width" value="128"/>
+                        <string name="Caption" value="Zamien na duze"/>
+                        <integer name="TabOrder" value="5"/>
+                      </properties>
+                    </component>
+                    <component name="Button7" class="TButton">
+                      <properties>
+                        <integer name="Left" value="144"/>
+                        <integer name="Height" value="25"/>
+                        <integer name="Top" value="72"/>
+                        <integer name="Width" value="128"/>
+                        <string name="Caption" value="Zamien na kapitalki"/>
+                        <integer name="TabOrder" value="6"/>
+                      </properties>
+                    </component>
+                    <component name="Button10" class="TButton">
+                      <properties>
+                        <integer name="Left" value="8"/>
+                        <integer name="Height" value="25"/>
+                        <integer name="Top" value="104"/>
+                        <integer name="Width" value="128"/>
+                        <string name="Caption" value="Edytuj"/>
+                        <integer name="TabOrder" value="7"/>
+                      </properties>
+                    </component>
+                  </children>
+                </component>
+                <component name="lv1" class="TListView">
+                  <properties>
+                    <integer name="Left" value="0"/>
+                    <integer name="Height" value="277"/>
+                    <integer name="Top" value="0"/>
+                    <integer name="Width" value="881"/>
+                    <ident name="Align" value="alClient"/>
+                    <boolean name="Checkboxes" value="true"/>
+                    <collectionproperty name="Columns">
+                      <collection>
+                        <list>
+                          <string name="Caption" value="ID"/>
+                          <integer name="Width" value="100"/>
+                        </list>
+                        <list>
+                          <string name="Caption" value="Nazwa przed"/>
+                          <integer name="Width" value="350"/>
+                        </list>
+                        <list>
+                          <string name="Caption" value="Nazwa po"/>
+                          <integer name="Width" value="350"/>
+                        </list>
+                      </collection>
+                    </collectionproperty>
+                    <boolean name="HideSelection" value="false"/>
+                    <boolean name="ReadOnly" value="true"/>
+                    <boolean name="RowSelect" value="true"/>
+                    <integer name="TabOrder" value="1"/>
+                    <ident name="ViewStyle" value="vsReport"/>
+                  </properties>
+                </component>
+              </children>
+            </component>
+            <component name="TabSheet2" class="TTabSheet">
+              <properties>
+                <string name="Caption" value="Etykiety"/>
+                <integer name="ClientHeight" value="501"/>
+                <integer name="ClientWidth" value="881"/>
+              </properties>
+              <children>
+                <component name="Panel4" class="TPanel">
+                  <properties>
+                    <integer name="Left" value="671"/>
+                    <integer name="Height" value="501"/>
+                    <integer name="Top" value="0"/>
+                    <integer name="Width" value="210"/>
+                    <ident name="Align" value="alRight"/>
+                    <ident name="BevelOuter" value="bvNone"/>
+                    <integer name="ClientHeight" value="501"/>
+                    <integer name="ClientWidth" value="210"/>
+                    <integer name="TabOrder" value="0"/>
+                  </properties>
+                  <children>
+                    <component name="Button11" class="TButton">
+                      <properties>
+                        <integer name="Left" value="8"/>
+                        <integer name="Height" value="25"/>
+                        <integer name="Top" value="216"/>
+                        <integer name="Width" value="115"/>
+                        <string name="Caption" value="Wczytaj"/>
+                        <integer name="TabOrder" value="0"/>
+                      </properties>
+                    </component>
+                    <component name="Label1" class="TLabel">
+                      <properties>
+                        <integer name="Left" value="8"/>
+                        <integer name="Height" value="15"/>
+                        <integer name="Top" value="0"/>
+                        <integer name="Width" value="91"/>
+                        <string name="Caption" value="Aktualna etykieta"/>
+                        <boolean name="ParentColor" value="false"/>
+                      </properties>
+                    </component>
+                    <component name="Label2" class="TLabel">
+                      <properties>
+                        <integer name="Left" value="8"/>
+                        <integer name="Height" value="15"/>
+                        <integer name="Top" value="24"/>
+                        <integer name="Width" value="79"/>
+                        <string name="Caption" value="&lt;&lt; etykieta >>"/>
+                        <ident name="Font.CharSet" value="EASTEUROPE_CHARSET"/>
+                        <integer name="Font.Height" value="-12"/>
+                        <string name="Font.Name" value="Arial"/>
+                        <ident name="Font.Pitch" value="fpVariable"/>
+                        <ident name="Font.Quality" value="fqDraft"/>
+                        <set name="Font.Style" value="fsBold"/>
+                        <boolean name="ParentColor" value="false"/>
+                        <boolean name="ParentFont" value="false"/>
+                      </properties>
+                    </component>
+                    <component name="Button12" class="TButton">
+                      <properties>
+                        <integer name="Left" value="8"/>
+                        <integer name="Height" value="25"/>
+                        <integer name="Top" value="248"/>
+                        <integer name="Width" value="115"/>
+                        <string name="Caption" value="Projektuj"/>
+                        <integer name="TabOrder" value="1"/>
+                      </properties>
+                    </component>
+                    <component name="Button13" class="TButton">
+                      <properties>
+                        <integer name="Left" value="8"/>
+                        <integer name="Height" value="25"/>
+                        <integer name="Top" value="280"/>
+                        <integer name="Width" value="115"/>
+                        <string name="Caption" value="Drukuj wybrane"/>
+                        <integer name="TabOrder" value="2"/>
+                      </properties>
+                    </component>
+                  </children>
+                </component>
+                <component name="PairSplitter1" class="TPairSplitter">
+                  <properties>
+                    <integer name="Left" value="0"/>
+                    <integer name="Height" value="501"/>
+                    <integer name="Top" value="0"/>
+                    <integer name="Width" value="671"/>
+                    <ident name="Align" value="alClient"/>
+                    <integer name="Position" value="360"/>
+                  </properties>
+                  <children>
+                    <component name="PairSplitterSide1" class="TPairSplitterSide">
+                      <properties>
+                        <ident name="Cursor" value="crArrow"/>
+                        <integer name="Left" value="0"/>
+                        <integer name="Height" value="501"/>
+                        <integer name="Top" value="0"/>
+                        <integer name="Width" value="360"/>
+                        <integer name="ClientWidth" value="360"/>
+                        <integer name="ClientHeight" value="501"/>
+                      </properties>
+                      <children>
+                        <component name="Panel5" class="TPanel">
+                          <properties>
+                            <integer name="Left" value="0"/>
+                            <integer name="Height" value="92"/>
+                            <integer name="Top" value="409"/>
+                            <integer name="Width" value="360"/>
+                            <ident name="Align" value="alBottom"/>
+                            <ident name="BevelOuter" value="bvNone"/>
+                            <integer name="ClientHeight" value="92"/>
+                            <integer name="ClientWidth" value="360"/>
+                            <integer name="TabOrder" value="0"/>
+                          </properties>
+                          <children>
+                            <component name="Edit1" class="TEdit">
+                              <properties>
+                                <integer name="Left" value="8"/>
+                                <integer name="Height" value="23"/>
+                                <integer name="Top" value="64"/>
+                                <integer name="Width" value="264"/>
+                                <integer name="TabOrder" value="0"/>
+                                <string name="Text" value="Edit1"/>
+                              </properties>
+                            </component>
+                            <component name="Label3" class="TLabel">
+                              <properties>
+                                <integer name="Left" value="8"/>
+                                <integer name="Height" value="15"/>
+                                <integer name="Top" value="48"/>
+                                <integer name="Width" value="61"/>
+                                <string name="Caption" value="Szukaj frazy"/>
+                                <boolean name="ParentColor" value="false"/>
+                              </properties>
+                            </component>
+                            <component name="labEtyAsort" class="TLabel">
+                              <properties>
+                                <integer name="Left" value="0"/>
+                                <integer name="Height" value="15"/>
+                                <integer name="Top" value="8"/>
+                                <integer name="Width" value="58"/>
+                                <string name="Caption" value="Wszystkich"/>
+                                <boolean name="ParentColor" value="false"/>
+                              </properties>
+                            </component>
+                          </children>
+                        </component>
+                        <component name="Panel7" class="TPanel">
+                          <properties>
+                            <integer name="Left" value="0"/>
+                            <integer name="Height" value="409"/>
+                            <integer name="Top" value="0"/>
+                            <integer name="Width" value="360"/>
+                            <ident name="Align" value="alClient"/>
+                            <ident name="BevelOuter" value="bvNone"/>
+                            <integer name="ClientHeight" value="409"/>
+                            <integer name="ClientWidth" value="360"/>
+                            <integer name="TabOrder" value="1"/>
+                          </properties>
+                          <children>
+                            <component name="Panel9" class="TPanel">
+                              <properties>
+                                <integer name="Left" value="0"/>
+                                <integer name="Height" value="32"/>
+                                <integer name="Top" value="0"/>
+                                <integer name="Width" value="360"/>
+                                <ident name="Align" value="alTop"/>
+                                <ident name="BevelOuter" value="bvNone"/>
+                                <string name="Caption" value="DostÄ™pne"/>
+                                <integer name="ClientHeight" value="32"/>
+                                <integer name="ClientWidth" value="360"/>
+                                <integer name="TabOrder" value="0"/>
+                              </properties>
+                              <children>
+                                <component name="sb_ZaznaczWszystkoL" class="TSpeedButton">
+                                  <properties>
+                                    <integer name="Left" value="9"/>
+                                    <integer name="Height" value="22"/>
+                                    <string name="Hint" value="Zaznacz wszystkie"/>
+                                    <integer name="Top" value="5"/>
+                                    <integer name="Width" value="23"/>
+                                    <string name="Caption" value="W"/>
+                                    <boolean name="ShowHint" value="true"/>
+                                    <boolean name="ParentShowHint" value="false"/>
+                                  </properties>
+                                </component>
+                                <component name="sb_OdznaczWszystkoL" class="TSpeedButton">
+                                  <properties>
+                                    <integer name="Left" value="32"/>
+                                    <integer name="Height" value="22"/>
+                                    <string name="Hint" value="Odznacz wszystkie"/>
+                                    <integer name="Top" value="5"/>
+                                    <integer name="Width" value="23"/>
+                                    <string name="Caption" value="N"/>
+                                    <boolean name="ShowHint" value="true"/>
+                                    <boolean name="ParentShowHint" value="false"/>
+                                  </properties>
+                                </component>
+                                <component name="sb_OdwrocZaznaczenieL" class="TSpeedButton">
+                                  <properties>
+                                    <integer name="Left" value="56"/>
+                                    <integer name="Height" value="22"/>
+                                    <string name="Hint" value="OdwrÃ³Ä‡"/>
+                                    <integer name="Top" value="5"/>
+                                    <integer name="Width" value="23"/>
+                                    <string name="Caption" value="O"/>
+                                    <boolean name="ShowHint" value="true"/>
+                                    <boolean name="ParentShowHint" value="false"/>
+                                  </properties>
+                                </component>
+                              </children>
+                            </component>
+                            <component name="lv_ety_asort" class="TListView">
+                              <properties>
+                                <integer name="Left" value="0"/>
+                                <integer name="Height" value="377"/>
+                                <integer name="Top" value="32"/>
+                                <integer name="Width" value="296"/>
+                                <ident name="Align" value="alClient"/>
+                                <boolean name="Checkboxes" value="true"/>
+                                <collectionproperty name="Columns">
+                                  <collection>
+                                    <list>
+                                      <string name="Caption" value="Nazwa"/>
+                                      <integer name="Width" value="200"/>
+                                    </list>
+                                    <list>
+                                      <ident name="Alignment" value="taCenter"/>
+                                      <string name="Caption" value="JM"/>
+                                    </list>
+                                    <list>
+                                      <ident name="Alignment" value="taRightJustify"/>
+                                      <string name="Caption" value="Cena"/>
+                                    </list>
+                                    <list>
+                                      <ident name="Alignment" value="taRightJustify"/>
+                                      <string name="Caption" value="EAN"/>
+                                      <integer name="Width" value="100"/>
+                                    </list>
+                                  </collection>
+                                </collectionproperty>
+                                <boolean name="GridLines" value="true"/>
+                                <boolean name="ReadOnly" value="true"/>
+                                <boolean name="RowSelect" value="true"/>
+                                <integer name="TabOrder" value="1"/>
+                                <ident name="ViewStyle" value="vsReport"/>
+                              </properties>
+                            </component>
+                            <component name="Panel11" class="TPanel">
+                              <properties>
+                                <integer name="Left" value="296"/>
+                                <integer name="Height" value="377"/>
+                                <integer name="Top" value="32"/>
+                                <integer name="Width" value="64"/>
+                                <ident name="Align" value="alRight"/>
+                                <ident name="BevelOuter" value="bvNone"/>
+                                <integer name="ClientHeight" value="377"/>
+                                <integer name="ClientWidth" value="64"/>
+                                <integer name="TabOrder" value="2"/>
+                              </properties>
+                              <children>
+                                <component name="SpeedButton1" class="TSpeedButton">
+                                  <properties>
+                                    <integer name="Left" value="8"/>
+                                    <integer name="Height" value="46"/>
+                                    <string name="Hint" value="Dodaj zaznaczone"/>
+                                    <integer name="Top" value="8"/>
+                                    <integer name="Width" value="55"/>
+                                    <binary name="Glyph.Data" value="–  BM–      6   (                `  d   d                                                                                                                                                                                                                                                                                                                                                                                                                                cu                                                                             	 $ ' #( %)    7D                                                                                ; Ã 	Ù × 	× Ö Ú z    ÿ                                                                            A Ð 	ï ê 	ê 	ê ì 	Ž	        8                                                                       % Ç 	ï ç 	è è è 	 &quot;                                                                 %              ¼ 	ì ç ç 	è 	ë ·4        &amp;,                      %$                                              ¯ 	æ è 	è ç 	ì À                                7
+RRRRRRRRRRL 
+j 	Ý è 	è 	è ç 	ë 	½ 	)                             š é 	ç 
+è 
+è 
+è 
+è 
+è 
+è 
+è 
+è 
+è 	ä æ 	è 	è 	è 	è 	è ë È 	-        J*&lt;              
+š 
+ê è 	è 	è 	è 	è 	è 	è 	è 	è 	è 	è è ç 	è 	è 	è ç 	è 	é Þ =                     › 	é 	è 	è 	è 	è 	è 	è 	è 	è 	è è 	è 	è ç 	è 	è 	è ç ç 	é ß 	?                     	š è ç ç ç ç ç ç ç ç ç ç 	ä 	å è 	è 	è 	è ç ë 	È.                      7
+R
+R
+R
+R
+R
+R
+R
+R
+R
+RM 	k Ý è 	è è ç 	ë 	¾ *         OA                                                              	° 	ç 	è 	è 	ç 	í À                                                      vT         Àÿ   ½ 	í 	è è 	è ë ¶A         ñø                                                             % È 	ï ç ç 	è é        > €€                                                               
+? 	Ð 	ï 	ê 	ê 	ê 	ì Ž
+                                                                        : Â Ø × × × Ú 	z                                                                           ;!9 9 9 : 7       ÿ                                                                         ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ                                                                                 ÿ ÿ                             þ þ                                                                                                                                                                                                                                                                             "/>
+                                    <boolean name="ShowHint" value="true"/>
+                                    <boolean name="ParentShowHint" value="false"/>
+                                  </properties>
+                                </component>
+                                <component name="SpeedButton2" class="TSpeedButton">
+                                  <properties>
+                                    <integer name="Left" value="8"/>
+                                    <integer name="Height" value="46"/>
+                                    <string name="Hint" value="UsuÅ„ zaznaczone"/>
+                                    <integer name="Top" value="64"/>
+                                    <integer name="Width" value="55"/>
+                                    <binary name="Glyph.Data" value="–  BM–      6   (                `  d   d                                                                                                                                                                                                                                                                                       þ þ                             ÿ ÿ                                                                                 ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ                                                                          ÿ       7: 9 9 9 ;!                                                                            	z Ú × × × Ø Â :                                                                       
+ Ž 	ì 	ê 	ê 	ê 	ï 	Ð 
+?                                                            €€    >        é 	è ç ç 	ï È%                                                             ñø         A ¶ ë 	è è 	è 	í ½Àÿ          vT                                                        À 	í 	ç 	è 	è 	ç 	°                                                             OA          * 	¾ 	ë ç è 	è è Ý 	kM
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R7                      . 	È ë ç 	è 	è 	è è 	å 	ä ç ç ç ç ç ç ç ç ç ç è 	š                     	? ß 	é ç ç 	è 	è 	è ç 	è 	è è 	è 	è 	è 	è 	è 	è 	è 	è 	è 	é ›                     = Þ 	é 	è ç 	è 	è 	è ç è 	è 	è 	è 	è 	è 	è 	è 	è 	è 	è è 
+ê 
+š            J*&lt;          	- È ë 	è 	è 	è 	è 	è æ 	ä 
+è 
+è 
+è 
+è 
+è 
+è 
+è 
+è 
+è 	ç é š                             	) 	½ 	ë ç 	è 	è è 	Ý 
+jLRRRRRRRRR
+R7                                 À 	ì ç 	è è 	æ ¯                                             %$                     &amp;,         4 · 	ë 	è ç ç 	ì ¼             %                                                                 &quot; 	  è è 	è ç 	ï Ç%                                                                    8           	 	Ž ì 	ê 	ê ê 	ï Ð A                                                                        ÿ        z Ú Ö 	× × 	Ù Ã ;                                                                                7D    %) #( ' $	                                                                             cu                                                                                                                                                                                                                                                                                                                                                                                                                     "/>
+                                    <boolean name="ShowHint" value="true"/>
+                                    <boolean name="ParentShowHint" value="false"/>
+                                  </properties>
+                                </component>
+                                <component name="SpeedButton3" class="TSpeedButton">
+                                  <properties>
+                                    <integer name="Left" value="8"/>
+                                    <integer name="Height" value="46"/>
+                                    <string name="Hint" value="Dodaj wszystkie"/>
+                                    <integer name="Top" value="120"/>
+                                    <integer name="Width" value="55"/>
+                                    <binary name="Glyph.Data" value="6  BM6      6   (   (   (             d   d                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;!9 9 9 : 7                                                                                                                                  : Â Ø × × × Ú 	z                                                                                                                                 
+? 	Ð 	ï 	ê 	ê 	ê 	ì Ž
+                                                                                                                                % È 	ï ç ç 	è é                                                                                                                                   ½ 	í 	è è 	è ë ¶A                                                                                                                                 	° 	ç 	è 	è 	ç 	í À                                                                                7
+R
+R
+R
+R
+R
+R
+R
+R
+R
+RM 	k Ý è 	è è ç 	ë 	¾ *                                                                             	š è ç ç ç ç ç ç ç ç ç ç 	ä 	å è 	è 	è 	è ç ë 	È.                                                                         › 	é 	è 	è 	è 	è 	è 	è 	è 	è 	è è 	è 	è ç 	è 	è 	è ç ç 	é ß 	?                                                                     
+š 
+ê è 	è 	è 	è 	è 	è 	è 	è 	è 	è 	è è ç 	è 	è 	è ç 	è 	é Þ =                                                                     š é 	ç 
+è 
+è 
+è 
+è 
+è 
+è 
+è 
+è 
+è 	ä æ 	è 	è 	è 	è 	è ë È 	-                                                                        7
+RRRRRRRRRRL 
+j 	Ý è 	è 	è ç 	ë 	½ 	)                                                                                                                         ¯ 	æ è 	è ç 	ì À                                                                                                                          ¼ 	ì ç ç 	è 	ë ·4                                                                                                                        % Ç 	ï ç 	è è è 	 &quot;   ;!9 9 9 : 7                                                                                       A Ð 	ï ê 	ê 	ê ì 	Ž	        : Â Ø × × × Ú 	z                                                                            ; Ã 	Ù × 	× Ö Ú z                 
+? 	Ð 	ï 	ê 	ê 	ê 	ì Ž
+                                                                        	 $ ' #( %)    7D                        % È 	ï ç ç 	è é                                                                                                                                   ½ 	í 	è è 	è ë ¶A                                                                                                                                 	° 	ç 	è 	è 	ç 	í À                                                                                7
+R
+R
+R
+R
+R
+R
+R
+R
+R
+RM 	k Ý è 	è è ç 	ë 	¾ *                                                                             	š è ç ç ç ç ç ç ç ç ç ç 	ä 	å è 	è 	è 	è ç ë 	È.                                                                         › 	é 	è 	è 	è 	è 	è 	è 	è 	è 	è è 	è 	è ç 	è 	è 	è ç ç 	é ß 	?                                                                     
+š 
+ê è 	è 	è 	è 	è 	è 	è 	è 	è 	è 	è è ç 	è 	è 	è ç 	è 	é Þ =                                                                     š é 	ç 
+è 
+è 
+è 
+è 
+è 
+è 
+è 
+è 
+è 	ä æ 	è 	è 	è 	è 	è ë È 	-                                                                        7
+RRRRRRRRRRL 
+j 	Ý è 	è 	è ç 	ë 	½ 	)                                                                                                                         ¯ 	æ è 	è ç 	ì À                                                                                                                          ¼ 	ì ç ç 	è 	ë ·4                                                                                                                        % Ç 	ï ç 	è è è 	 &quot;                                                                                                                         A Ð 	ï ê 	ê 	ê ì 	Ž	                                                                                                                        ; Ã 	Ù × 	× Ö Ú z                                                                                                                            	 $ ' #( %)    7D                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "/>
+                                    <boolean name="ShowHint" value="true"/>
+                                    <boolean name="ParentShowHint" value="false"/>
+                                  </properties>
+                                </component>
+                                <component name="SpeedButton4" class="TSpeedButton">
+                                  <properties>
+                                    <integer name="Left" value="8"/>
+                                    <integer name="Height" value="46"/>
+                                    <string name="Hint" value="UsuÅ„ wszystkie"/>
+                                    <integer name="Top" value="176"/>
+                                    <integer name="Width" value="55"/>
+                                    <binary name="Glyph.Data" value="6  BM6      6   (   (   (             d   d                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         7: 9 9 9 ;!                                                                                                                            	z Ú × × × Ø Â :                                                                                                                       
+ Ž 	ì 	ê 	ê 	ê 	ï 	Ð 
+?                                                                                                                           é 	è ç ç 	ï È%                                                                                                                        A ¶ ë 	è è 	è 	í ½                                                                                                                         À 	í 	ç 	è 	è 	ç 	°                                                                                                                         * 	¾ 	ë ç è 	è è Ý 	kM
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R7                                                                        . 	È ë ç 	è 	è 	è è 	å 	ä ç ç ç ç ç ç ç ç ç ç è 	š                                                                     	? ß 	é ç ç 	è 	è 	è ç 	è 	è è 	è 	è 	è 	è 	è 	è 	è 	è 	è 	é ›                                                                     = Þ 	é 	è ç 	è 	è 	è ç è 	è 	è 	è 	è 	è 	è 	è 	è 	è 	è è 
+ê 
+š                                                                         	- È ë 	è 	è 	è 	è 	è æ 	ä 
+è 
+è 
+è 
+è 
+è 
+è 
+è 
+è 
+è 	ç é š                                                                             	) 	½ 	ë ç 	è 	è è 	Ý 
+jLRRRRRRRRR
+R7                                                                                 À 	ì ç 	è è 	æ ¯                                                                                                                                4 · 	ë 	è ç ç 	ì ¼                                                                                               7: 9 9 9 ;!   &quot; 	  è è 	è ç 	ï Ç%                                                                                     	z Ú × × × Ø Â :       	 	Ž ì 	ê 	ê ê 	ï Ð A                                                                            
+ Ž 	ì 	ê 	ê 	ê 	ï 	Ð 
+?                 z Ú Ö 	× × 	Ù Ã ;                                                                      é 	è ç ç 	ï È%                         7D    %) #( ' $	                                                                A ¶ ë 	è è 	è 	í ½                                                                                                                         À 	í 	ç 	è 	è 	ç 	°                                                                                                                         * 	¾ 	ë ç è 	è è Ý 	kM
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R7                                                                        . 	È ë ç 	è 	è 	è è 	å 	ä ç ç ç ç ç ç ç ç ç ç è 	š                                                                     	? ß 	é ç ç 	è 	è 	è ç 	è 	è è 	è 	è 	è 	è 	è 	è 	è 	è 	è 	é ›                                                                     = Þ 	é 	è ç 	è 	è 	è ç è 	è 	è 	è 	è 	è 	è 	è 	è 	è 	è è 
+ê 
+š                                                                         	- È ë 	è 	è 	è 	è 	è æ 	ä 
+è 
+è 
+è 
+è 
+è 
+è 
+è 
+è 
+è 	ç é š                                                                             	) 	½ 	ë ç 	è 	è è 	Ý 
+jLRRRRRRRRR
+R7                                                                                 À 	ì ç 	è è 	æ ¯                                                                                                                                4 · 	ë 	è ç ç 	ì ¼                                                                                                                                 &quot; 	  è è 	è ç 	ï Ç%                                                                                                                                	 	Ž ì 	ê 	ê ê 	ï Ð A                                                                                                                                 z Ú Ö 	× × 	Ù Ã ;                                                                                                                                7D    %) #( ' $	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
+                                    <boolean name="ShowHint" value="true"/>
+                                    <boolean name="ParentShowHint" value="false"/>
+                                  </properties>
+                                </component>
+                              </children>
+                            </component>
+                          </children>
+                        </component>
+                      </children>
+                    </component>
+                    <component name="PairSplitterSide2" class="TPairSplitterSide">
+                      <properties>
+                        <ident name="Cursor" value="crArrow"/>
+                        <integer name="Left" value="365"/>
+                        <integer name="Height" value="501"/>
+                        <integer name="Top" value="0"/>
+                        <integer name="Width" value="306"/>
+                        <integer name="ClientWidth" value="306"/>
+                        <integer name="ClientHeight" value="501"/>
+                      </properties>
+                      <children>
+                        <component name="Panel6" class="TPanel">
+                          <properties>
+                            <integer name="Left" value="0"/>
+                            <integer name="Height" value="50"/>
+                            <integer name="Top" value="451"/>
+                            <integer name="Width" value="306"/>
+                            <ident name="Align" value="alBottom"/>
+                            <ident name="BevelOuter" value="bvNone"/>
+                            <integer name="ClientHeight" value="50"/>
+                            <integer name="ClientWidth" value="306"/>
+                            <integer name="TabOrder" value="0"/>
+                          </properties>
+                          <children>
+                            <component name="labEtySel" class="TLabel">
+                              <properties>
+                                <integer name="Left" value="8"/>
+                                <integer name="Height" value="15"/>
+                                <integer name="Top" value="13"/>
+                                <integer name="Width" value="58"/>
+                                <string name="Caption" value="Wszystkich"/>
+                                <boolean name="ParentColor" value="false"/>
+                              </properties>
+                            </component>
+                          </children>
+                        </component>
+                        <component name="Panel8" class="TPanel">
+                          <properties>
+                            <integer name="Left" value="0"/>
+                            <integer name="Height" value="451"/>
+                            <integer name="Top" value="0"/>
+                            <integer name="Width" value="306"/>
+                            <ident name="Align" value="alClient"/>
+                            <ident name="BevelOuter" value="bvNone"/>
+                            <integer name="ClientHeight" value="451"/>
+                            <integer name="ClientWidth" value="306"/>
+                            <integer name="TabOrder" value="1"/>
+                          </properties>
+                          <children>
+                            <component name="Panel10" class="TPanel">
+                              <properties>
+                                <integer name="Left" value="0"/>
+                                <integer name="Height" value="32"/>
+                                <integer name="Top" value="0"/>
+                                <integer name="Width" value="306"/>
+                                <ident name="Align" value="alTop"/>
+                                <string name="Caption" value="Wybrane"/>
+                                <integer name="ClientHeight" value="32"/>
+                                <integer name="ClientWidth" value="306"/>
+                                <integer name="TabOrder" value="0"/>
+                              </properties>
+                              <children>
+                                <component name="sb_ZaznaczWszystkoR" class="TSpeedButton">
+                                  <properties>
+                                    <integer name="Left" value="8"/>
+                                    <integer name="Height" value="22"/>
+                                    <string name="Hint" value="Zaznacz wszystko"/>
+                                    <integer name="Top" value="5"/>
+                                    <integer name="Width" value="23"/>
+                                    <string name="Caption" value="W"/>
+                                    <boolean name="ShowHint" value="true"/>
+                                    <boolean name="ParentShowHint" value="false"/>
+                                  </properties>
+                                </component>
+                                <component name="sb_OdznaczWszystkoR" class="TSpeedButton">
+                                  <properties>
+                                    <integer name="Left" value="32"/>
+                                    <integer name="Height" value="22"/>
+                                    <string name="Hint" value="Odznacz wszystkie"/>
+                                    <integer name="Top" value="5"/>
+                                    <integer name="Width" value="23"/>
+                                    <string name="Caption" value="N"/>
+                                    <boolean name="ShowHint" value="true"/>
+                                    <boolean name="ParentShowHint" value="false"/>
+                                  </properties>
+                                </component>
+                                <component name="sb_OdwrocZaznaczenieR" class="TSpeedButton">
+                                  <properties>
+                                    <integer name="Left" value="56"/>
+                                    <integer name="Height" value="22"/>
+                                    <string name="Hint" value="OdwrÃ³Ä‡ zaznaczenie"/>
+                                    <integer name="Top" value="5"/>
+                                    <integer name="Width" value="23"/>
+                                    <string name="Caption" value="O"/>
+                                    <boolean name="ShowHint" value="true"/>
+                                    <boolean name="ParentShowHint" value="false"/>
+                                  </properties>
+                                </component>
+                              </children>
+                            </component>
+                            <component name="lv_ety_sel" class="TListView">
+                              <properties>
+                                <integer name="Left" value="0"/>
+                                <integer name="Height" value="419"/>
+                                <integer name="Top" value="32"/>
+                                <integer name="Width" value="306"/>
+                                <ident name="Align" value="alClient"/>
+                                <boolean name="Checkboxes" value="true"/>
+                                <collectionproperty name="Columns">
+                                  <collection>
+                                    <list>
+                                      <string name="Caption" value="Nazwa"/>
+                                      <integer name="Width" value="200"/>
+                                    </list>
+                                    <list>
+                                      <ident name="Alignment" value="taCenter"/>
+                                      <string name="Caption" value="JM"/>
+                                    </list>
+                                    <list>
+                                      <ident name="Alignment" value="taRightJustify"/>
+                                      <string name="Caption" value="Cena"/>
+                                    </list>
+                                    <list>
+                                      <ident name="Alignment" value="taRightJustify"/>
+                                      <string name="Caption" value="EAN"/>
+                                      <integer name="Width" value="100"/>
+                                    </list>
+                                  </collection>
+                                </collectionproperty>
+                                <boolean name="GridLines" value="true"/>
+                                <boolean name="ReadOnly" value="true"/>
+                                <boolean name="RowSelect" value="true"/>
+                                <integer name="TabOrder" value="1"/>
+                                <ident name="ViewStyle" value="vsReport"/>
+                              </properties>
+                            </component>
+                          </children>
+                        </component>
+                      </children>
+                    </component>
+                  </children>
+                </component>
+              </children>
+            </component>
+          </children>
+        </component>
+        <component name="od1" class="TOpenDialog">
+          <properties>
+            <string name="DefaultExt" value=".dsn"/>
+            <string name="FileName" value="S:\sources\pas\Sprawdzarka ELZAB"/>
+            <string name="Filter" value="Pliki Å¼rÃ³del ODBC|*.dsn|Wszystkie pliki|*.*"/>
+            <string name="InitialDir" value="S:\sources\pas\"/>
+            <integer name="left" value="384"/>
+            <integer name="top" value="184"/>
+          </properties>
+        </component>
+        <component name="sqlq" class="TSQLQuery">
+          <properties>
+            <collectionproperty name="FieldDefs">
+              <collection/>
+            </collectionproperty>
+            <ident name="Database" value="ODBC1"/>
+            <ident name="Transaction" value="sqlt"/>
+            <collectionproperty name="Params">
+              <collection/>
+            </collectionproperty>
+            <integer name="left" value="184"/>
+            <integer name="top" value="264"/>
+          </properties>
+        </component>
+        <component name="sqlt" class="TSQLTransaction">
+          <properties>
+            <boolean name="Active" value="false"/>
+            <ident name="Database" value="ODBC1"/>
+            <integer name="left" value="184"/>
+            <integer name="top" value="184"/>
+          </properties>
+        </component>
+        <component name="ODBC1" class="TODBCConnection">
+          <properties>
+            <boolean name="Connected" value="false"/>
+            <boolean name="LoginPrompt" value="false"/>
+            <boolean name="KeepConnection" value="true"/>
+            <ident name="Transaction" value="sqlt"/>
+            <set name="LogEvents" value=""/>
+            <string name="FileDSN" value="S:\sources\pas\PCM kapitalki\pcm.dsn"/>
+            <integer name="left" value="184"/>
+            <integer name="top" value="100"/>
+          </properties>
+        </component>
+        <component name="frReport1" class="TfrReport">
+          <properties>
+            <ident name="Dataset" value="frUserDataset1"/>
+            <ident name="InitialZoom" value="pzDefault"/>
+            <set name="Options" value=""/>
+            <set name="PreviewButtons" value="pbZoom,pbLoad,pbSave,pbPrint,pbFind,pbHelp,pbExit"/>
+            <ident name="DataType" value="dtDataSet"/>
+            <integer name="left" value="48"/>
+            <integer name="top" value="152"/>
+          </properties>
+        </component>
+        <component name="frBarCodeObject1" class="TfrBarCodeObject">
+          <properties>
+            <integer name="left" value="48"/>
+            <integer name="top" value="320"/>
+          </properties>
+        </component>
+        <component name="frRoundRectObject1" class="TfrRoundRectObject">
+          <properties>
+            <integer name="left" value="200"/>
+            <integer name="top" value="320"/>
+          </properties>
+        </component>
+        <component name="frShapeObject1" class="TfrShapeObject">
+          <properties>
+            <integer name="left" value="48"/>
+            <integer name="top" value="208"/>
+          </properties>
+        </component>
+        <component name="frUserDataset1" class="TfrUserDataset">
+          <properties>
+            <integer name="left" value="48"/>
+            <integer name="top" value="264"/>
+          </properties>
+        </component>
+        <component name="frDesigner1" class="TfrDesigner">
+          <properties>
+            <integer name="left" value="48"/>
+            <integer name="top" value="96"/>
+          </properties>
+        </component>
+        <component name="PrintDialog1" class="TPrintDialog">
+          <properties>
+            <integer name="left" value="440"/>
+            <integer name="top" value="184"/>
+          </properties>
+        </component>
+      </children>
+    </component>
+  </Component>
+</CONFIG>

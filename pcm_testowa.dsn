@@ -1,0 +1,10 @@
+[ODBC]
+DRIVER=SQL Server Native Client 10.0
+UID=sa
+PWD=zaq1@WSX
+LANGUAGE=polski
+DATABASE=TESTOWA
+WSID=USER2
+APP=System operacyjny Microsoft® Windows®
+SERVER=192.168.0.17,52008
+Description=Baza PCMarket
